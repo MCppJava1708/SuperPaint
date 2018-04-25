@@ -1,6 +1,10 @@
 package edu_servlet;
 
-public class ServletLogin
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+
+@WebServlet("/ServletLogin")
+public class ServletLogin extends HttpServlet
 {
 
 }
